@@ -40,7 +40,7 @@ This is a HTML music player that combines HTML and JQuery to give you a light we
 
 4. Insert the following code under <div class=row>
 
-	<!--<div id="ImagePlaceHolder" class="col-sm-6">
+	<!---<div id="ImagePlaceHolder" class="col-sm-6">
 		<a href="./YourArtist.html"><img class="img-thumbnail" src="./Images/YourArtist.jpg"></a>
 		<p>Your Artist</p>
 	</div>-->
@@ -51,7 +51,7 @@ This is a HTML music player that combines HTML and JQuery to give you a light we
 
 7. under <tbody> (line 32) replace the song details with the details of your artists song in the format seen below:
 
-	<!--<tr id="1" class="row-link">
+	<!---<tr id="1" class="row-link">
 		<td>Your Artist</td>
 		<td>The Song</td>
 		<td>The Album</td>
@@ -59,13 +59,13 @@ This is a HTML music player that combines HTML and JQuery to give you a light we
 
 8. Scroll down to line 162 and replace the image path to the path of your artists image, example shown below:
 
-	<!--var imagesrc1= './Images/YourArtistImage.jpg';-->
+	<!---var imagesrc1= './Images/YourArtistImage.jpg';-->
 
 9. Scroll down to line 165 (according to BenHoward.html) and replace the paths of the song and the name of the song with your artist songs path and song names as seen in the example below:
 
-    <!--{"song": path+'Your Artist Album/Song1.mp3', "name": "Your Artist - Song1"},
+    <!---{"song": path+'Your Artist Album/Song1.mp3', "name": "Your Artist - Song1"},
 	{"song": path+'Your Artist Album/Song2.mp3', "name": "Your Artist - Song2"},-->
 
 10. Scrool down to line 187 and replace the image.src of the songs if needed, example:
 
-	<!--image.src=imagesrc1;-->
+	<!---image.src=imagesrc1;-->
