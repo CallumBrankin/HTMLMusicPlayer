@@ -10,7 +10,7 @@ This is a HTML music player that combines HTML and JQuery to give you a light we
 
 ![alt tag](https://s20.postimg.org/xdav4m8n1/_1.png)
 
-2. Weldone, you've navigated to your favourite artist music page.
+1. Weldone, you've navigated to your favourite artist music page.
 
 ![alt tag](https://s20.postimg.org/iim9qfz25/_2.png)
 
