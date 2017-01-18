@@ -40,32 +40,32 @@ This is a HTML music player that combines HTML and JQuery to give you a light we
 
 4. Insert the following code under <div class=row>
 
-	[comment]: <> (<div id="ImagePlaceHolder" class="col-sm-6">
+	`<div id="ImagePlaceHolder" class="col-sm-6">
 		<a href="./YourArtist.html"><img class="img-thumbnail" src="./Images/YourArtist.jpg"></a>
 		<p>Your Artist</p>
-	</div>)
+	</div>`
 
 5. Create a new file named after the artist you're going to add e.g. yourartist.html
 
 6. Copy all the code from BenHoward.html and paste it in yourartist.html
 
-7. under <tbody> (line 32) replace the song details with the details of your artists song in the format seen below:
+7. under '<tbody>' (line 32) (according to BenHoward.html) replace the song details with the details of your artists song in the format seen below:
 
-	[comment]: <> (<tr id="1" class="row-link">
+	`<tr id="1" class="row-link">
 		<td>Your Artist</td>
 		<td>The Song</td>
 		<td>The Album</td>
-	</tr>)
+	</tr>`
 
-8. Scroll down to line 162 and replace the image path to the path of your artists image, example shown below:
+8. Scroll down to line 162 (according to BenHoward.html) and replace the image path to the path of your artists image, example shown below:
 
-	[comment]: <> (var imagesrc1= './Images/YourArtistImage.jpg';)
+	`var imagesrc1= './Images/YourArtistImage.jpg';`
 
 9. Scroll down to line 165 (according to BenHoward.html) and replace the paths of the song and the name of the song with your artist songs path and song names as seen in the example below:
 
-    [comment]: <> ({"song": path+'Your Artist Album/Song1.mp3', "name": "Your Artist - Song1"},
-	{"song": path+'Your Artist Album/Song2.mp3', "name": "Your Artist - Song2"},)
+       `{"song": path+'Your Artist Album/Song1.mp3', "name": "Your Artist - Song1"},
+	{"song": path+'Your Artist Album/Song2.mp3', "name": "Your Artist - Song2"}`
 
-10. Scrool down to line 187 and replace the image.src of the songs if needed, example:
+10. Scrool down to line 187 (according to BenHoward.html) and replace the image.src of the songs if needed, example:
 
-	[comment]:<> (image.src=imagesrc1;)
+	`image.src=imagesrc1;`
